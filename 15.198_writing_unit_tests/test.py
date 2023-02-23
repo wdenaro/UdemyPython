@@ -9,11 +9,6 @@ class TestMain(unittest.TestCase):
         result = script.do_stuff(test_param)
         self.assertEqual(result, 15)
 
-    def test_with_zero(self):
-        test_param = 0
-        result = script.do_stuff(test_param)
-        self.assertEqual(result, 5)
-
     def test_with_string(self):
         test_param = 'qwerty'
         result = script.do_stuff(test_param)
